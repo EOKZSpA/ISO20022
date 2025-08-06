@@ -1,6 +1,6 @@
-package com.ecsa.mt2mx.repository;
+package com.eokz.iso20022.repository;
 
-import com.ecsa.mt2mx.model.ConversionLog;
+import com.eokz.iso20022.model.ConversionLog;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

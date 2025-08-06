@@ -83,6 +83,9 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>3.1.2</version>
+                <configuration>
+                    <mainClass>com.eokz.iso20022.MtMxConverterApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>

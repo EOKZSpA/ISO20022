@@ -1,4 +1,4 @@
-package com.ecsa.mt2mx.service;
+package com.eokz.iso20022.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

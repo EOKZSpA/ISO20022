@@ -1,7 +1,7 @@
-package com.ecsa.mt2mx.service;
+package com.eokz.iso20022.service;
 
-import com.ecsa.mt2mx.model.ConversionLog;
-import com.ecsa.mt2mx.repository.ConversionLogRepository;
+import com.eokz.iso20022.model.ConversionLog;
+import com.eokz.iso20022.repository.ConversionLogRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

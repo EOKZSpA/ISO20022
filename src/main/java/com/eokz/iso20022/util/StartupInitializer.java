@@ -1,4 +1,4 @@
-package com.ecsa.mt2mx.util;
+package com.eokz.iso20022.util;
 
 import jakarta.annotation.PostConstruct;
 

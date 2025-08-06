@@ -1,7 +1,7 @@
-package com.ecsa.mt2mx.controller;
+package com.eokz.iso20022.controller;
 
-import com.ecsa.mt2mx.service.ConversionLogService;
-import com.ecsa.mt2mx.service.MtToMxService;
+import com.eokz.iso20022.service.ConversionLogService;
+import com.eokz.iso20022.service.MtToMxService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -11,7 +11,6 @@ import java.time.LocalDateTime;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 @RestController
 @RequestMapping("/api/convert")

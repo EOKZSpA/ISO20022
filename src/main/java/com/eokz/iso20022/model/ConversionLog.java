@@ -1,4 +1,4 @@
-package com.ecsa.mt2mx.model;
+package com.eokz.iso20022.model;
 
 import jakarta.persistence.*;
 
