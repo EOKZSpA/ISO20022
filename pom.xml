@@ -37,12 +37,14 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>3.4.2</version>
         </dependency>
 
         <!-- Spring Data JPA -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>3.5.4</version>
         </dependency>
 
         <!-- SQLite JDBC -->
@@ -82,11 +84,40 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Cucumber Gherkin syntax -->
+        <!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>gherkin</artifactId>
-            <version>27.0.0</version>
+            <version>33.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>7.23.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- RestAssured para pruebas de API -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>5.4.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Para parsear JSON en RestAssured -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-path</artifactId>
+            <version>5.4.0</version>
+            <scope>test</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-suite-engine</artifactId>
             <scope>test</scope>
         </dependency>
 
